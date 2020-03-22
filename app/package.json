@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build ../public",
+    "build": "react-scripts build && rimraf ../public && mv build ../public",
+    "clean": "rimraf ../public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

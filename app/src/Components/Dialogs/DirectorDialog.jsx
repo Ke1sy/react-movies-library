@@ -105,7 +105,7 @@ const DirectorDialog = ({createUpdateDirector, isOpen, director, openCreateUpdat
             </DialogContent>
             <DialogActions>
                 <Button onClick={handleClose} color="primary">
-                    <CancelIcon fontSize="small"/>Cancel
+                    <CancelIcon fontSize="small"/>
                     Cancel
                 </Button>
                 <Button onClick={createUpdateDirectorSubmit} color="primary">
