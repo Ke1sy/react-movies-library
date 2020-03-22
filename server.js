@@ -4,7 +4,7 @@ const schema = require('schema/schema');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-const PORT = 3000;
+const PORT = 3005;
 const path = require('path');
 
 mongoose.connect("mongodb+srv://admin:admin123@graphql-db-m4doy.mongodb.net/graphql-learn?retryWrites=true&w=majority", {
